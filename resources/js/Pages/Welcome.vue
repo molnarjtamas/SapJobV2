@@ -35,7 +35,7 @@
 
                         <jet-button class="ml-4" >
                             <inertia-link :href="route('login')">
-                                Login
+                                Login alma
                             </inertia-link>
                         </jet-button>
 
