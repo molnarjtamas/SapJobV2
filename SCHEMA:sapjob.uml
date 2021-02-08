@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>e6b83985-a736-431e-b160-8f5ffc8543c8.SCHEMA:sapjob</OriginalElement>
+  <nodes>
+    <node x="644.1708860759493" y="575.4050632911392">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.team_user</node>
+    <node x="241.0" y="0.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.users</node>
+    <node x="49.5" y="371.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.teams</node>
+    <node x="0.0" y="598.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.team_invitations</node>
+    <node x="275.5" y="371.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.sessions</node>
+    <node x="577.5" y="0.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.personal_access_tokens</node>
+    <node x="0.0" y="820.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.migrations</node>
+    <node x="861.5" y="0.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.failed_jobs</node>
+    <node x="236.0" y="820.0">e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.password_resets</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.team_user" target="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.teams">
+      <point x="-50.5" y="-88.5" />
+      <point x="381.0" y="573.0" />
+      <point x="204.0" y="573.0" />
+      <point x="51.5" y="88.5" />
+    </edge>
+    <edge source="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.team_invitations" target="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.teams">
+      <point x="0.0" y="-88.5" />
+      <point x="-51.5" y="88.5" />
+    </edge>
+    <edge source="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.sessions" target="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.users">
+      <point x="0.0" y="-88.5" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.team_user" target="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.users">
+      <point x="50.5" y="-88.5" />
+      <point x="482.0" y="346.0" />
+      <point x="461.8333333333333" y="346.0" />
+      <point x="88.33333333333331" y="160.5" />
+    </edge>
+    <edge source="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.teams" target="e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.users">
+      <point x="0.0" y="-88.5" />
+      <point x="152.5" y="346.0" />
+      <point x="285.1666666666667" y="346.0" />
+      <point x="-88.33333333333331" y="160.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7523809523809524" x="650.9113924050632" y="595.4113924050633" />
+  <SelectedNodes>
+    <node>e6b83985-a736-431e-b160-8f5ffc8543c8.TABLE:sapjob.team_user</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

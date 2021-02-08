@@ -27,6 +27,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@dangvanthanh/vue-clock": "^0.2.1",
         "npm": "^7.5.2"
     }
 }
